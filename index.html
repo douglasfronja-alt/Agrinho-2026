@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGRINHO 2026 - Agro Forte, Futuro Sustentável</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #081c15;
+      color: white;
+      overflow-x: hidden;
+      line-height: 1.7;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0,0,0,.85);
+      padding: 15px 10px;
+      z-index: 999;
+      backdrop-filter: blur(10px);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #4ade80;
+    }
+
+    header {
+      min-height: 100vh;
+      background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)), #0b3b24;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 120px 30px 60px;
+    }
+
+    .hero {
+      max-width: 1000px;
+    }
+
+    .hero h1 {
+      font-size: 3.6rem;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      color: #a7f3d0;
+      margin-bottom: 30px;
+    }
+
+    .hero p {
+      font-size: 1.15rem;
+      margin-bottom: 18px;
+    }
+
+    .botao {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 30px;
+      background: #22c55e;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      transition: .3s;
+    }
+
+    .botao:hover {
+      transform: scale(1.05);
+      background: #16a34a;
+    }
+
+    section {
+      padding: 90px 10%;
+    }
+
+    section h2 {
+      font-size: 3rem;
+      margin-bottom: 30px;
+      color: #4ade80;
+    }
+
+    section p {
+      font-size: 1.15rem;
+      margin-bottom: 20px;
+    }
+
+    .historia { background: #0b2e13; }
+    .sustentavel { background: #14532d; }
+    .precisao { background: #166534; }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #134e33;
+      padding: 25px;
+      border-radius: 15px;
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      color: #bbf7d0;
+    }
+
+    .card p {
+      color: #e5e7eb;
+    }
+
+    footer {
+      background: #000;
+      padding: 50px 10%;
+      text-align: center;
+    }
+
+    footer h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    @media(max-width: 768px) {
+      .hero h1 { font-size: 2.6rem; }
+      .hero h2 { font-size: 1.5rem; }
+      section h2 { font-size: 2rem; }
+      nav ul { gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#historia">História</a></li>
+      <li><a href="#sustentavel">Sustentabilidade</a></li>
+      <li><a href="#precisao">Precisão</a></li>
+      <li><a href="#tecnologia">Tecnologia</a></li>
+      <li><a href="#creditos">Créditos</a></li>
+    </ul>
+  </nav>
+
+  <header id="inicio">
+    <div class="hero">
+      <h1>🌱 AGRINHO 2026</h1>
+      <h2>Agro Forte, Futuro Sustentável: Equilíbrio entre Produção e Meio Ambiente</h2>
+      <p>A agricultura é uma das atividades mais importantes para a humanidade. Ela é responsável pela produção dos alimentos que chegam diariamente à mesa de bilhões de pessoas.</p>
+      <p>Neste projeto você conhecerá como a tecnologia, a robótica, a inteligência artificial, os drones e as energias renováveis podem ajudar a construir um futuro mais equilibrado, onde o aumento da produção de alimentos aconteça lado a lado com a preservação ambiental.</p>
+      <a href="#historia" class="botao">Explorar Projeto</a>
+    </div>
+  </header>
+
+  <section id="historia" class="historia">
+    <h2>🌾 A Evolução da Agricultura</h2>
+    <p>Desde os primeiros períodos da história humana, a agricultura desempenha um papel fundamental para o desenvolvimento das sociedades.</p>
+    <p>Esse avanço permitiu a formação das primeiras comunidades, o crescimento populacional e o desenvolvimento das civilizações.</p>
+    <p>Com a Revolução Industrial, máquinas começaram a transformar profundamente o trabalho no campo.</p>
+    <p>Atualmente, a agricultura vive uma nova revolução com sensores, satélites, drones, robótica e inteligência artificial.</p>
+  </section>
+
+  <section id="sustentavel" class="sustentavel">
+    <h2>🌱 Agricultura Sustentável</h2>
+    <p>A sustentabilidade tornou-se uma das principais preocupações da sociedade moderna.</p>
+    <p>Práticas como rotação de culturas, preservação das matas ciliares e uso racional da água são exemplos de ações sustentáveis.</p>
+    <p>Além dos benefícios ambientais, a sustentabilidade também gera vantagens econômicas.</p>
+    <p>O futuro da agricultura depende da capacidade de produzir alimentos de maneira responsável.</p>
+  </section>
+
+  <section id="precisao" class="precisao">
+    <h2>🎯 Agricultura de Precisão</h2>
+    <p>A agricultura de precisão utiliza sensores, computadores, satélites e sistemas de geolocalização para analisar detalhadamente cada área da propriedade rural.</p>
+    <p>Com essas informações, o agricultor aplica recursos apenas onde realmente são necessários.</p>
+    <p>O resultado é uma produção mais eficiente, com menor desperdício de água, fertilizantes e defensivos agrícolas.</p>
+    <p>Produzir mais utilizando menos recursos é uma das principais características da agricultura moderna.</p>
+  </section>
+
+  <section id="tecnologia" style="background: #0f3d2e; padding: 90px 10%;">
+    <h2 style="color: #4ade80;">🤖 Robótica Agrícola</h2>
+    <div style="font-size: 120px; text-align: center; margin: 30px 0;">🤖</div>
+    <p>A robótica agrícola representa uma das maiores revoluções tecnológicas da história do campo.</p>
+    <p>Máquinas inteligentes conseguem executar tarefas complexas com precisão, rapidez e eficiência.</p>
+    <p>Os robôs agrícolas podem realizar plantio, monitoramento, pulverização localizada, identificação de ervas daninhas e colheitas automatizadas.</p>
+  </section>
+
+  <section style="background: #14532d; padding: 90px 10%;">
+    <h2 style="color: #86efac;">🚁 Drones Agrícolas</h2>
+    <div style="font-size: 120px; text-align: center; margin: 30px 0;">🚁</div>
+    <p>Os drones agrícolas monitoram grandes áreas, coletando informações detalhadas sobre as lavouras.</p>
+    <p>Eles ajudam a identificar falta de irrigação, pragas, doenças e diferenças de desenvolvimento entre plantas.</p>
+    <p>Os dados coletados são usados em conjunto com softwares de análise para criar mapas detalhados das plantações.</p>
+  </section>
+
+  <section style="background: #166534; padding: 90px 10%;">
+    <h2 style="color: #bbf7d0;">🧠 Inteligência Artificial no Campo</h2>
+    <div style="font-size: 120px; text-align: center; margin: 30px 0;">🧠</div>
+    <p>A inteligência artificial permite que computadores analisem grandes quantidades de informações em poucos segundos.</p>
+    <p>Ela identifica padrões, prevê situações e auxilia os agricultores na tomada de decisões.</p>
+    <p>Com IA, é possível reduzir desperdícios, melhorar a eficiência dos recursos e aumentar a qualidade da produção agrícola.</p>
+  </section>
+
+  <section style="background: #0f766e; padding: 90px 10%;">
+    <h2 style="color: #ccfbf1;">💧 Irrigação Inteligente</h2>
+    <div style="font-size: 120px; text-align: center; margin: 30px 0;">💧</div>
+    <p>A irrigação inteligente usa sensores que monitoram a umidade do solo em tempo real.</p>
+    <p>Essa tecnologia evita desperdício e melhora o desenvolvimento das culturas.</p>
+    <p>Ela permite economia de água e redução de custos operacionais.</p>
+  </section>
+
+  <section style="background: #92400e; padding: 90px 10%;">
+    <h2 style="color: #fde68a;">☀️ Energia Solar no Campo</h2>
+    <div style="font-size: 120px; text-align: center; margin: 30px 0;">☀️</div>
+    <p>A energia solar transforma luz do sol em eletricidade limpa e sustentável.</p>
+    <p>Nas propriedades rurais, ela alimenta sistemas de irrigação, galpões e equipamentos agrícolas.</p>
+    <p>Essa tecnologia reduz custos e diminui a emissão de gases poluentes.</p>
+  </section>
+
+  <section style="background: #1e293b; padding: 90px 10%;">
+    <h2 style="color: #93c5fd;">📊 Curiosidades e Informações Interessantes</h2>
+    <p>🌎 A agricultura fornece alimentos para bilhões de pessoas e é fundamental para a economia.</p>
+    <p>🚁 Drones conseguem monitorar centenas de hectares em poucas horas.</p>
+    <p>🤖 Máquinas inteligentes realizam operações com grande precisão.</p>
+    <p>💧 Sistemas modernos de irrigação economizam milhares de litros de água.</p>
+    <p>☀️ Energia solar é uma fonte renovável em rápido crescimento.</p>
+  </section>
+
+  <section style="background: #111827; padding: 90px 10%;">
+    <h2 style="color: #facc15;">🎮 Simulador de Fazenda Sustentável</h2>
+    <p>Selecione as tecnologias que você deseja utilizar em sua fazenda e descubra como elas podem contribuir para a produtividade e preservação ambiental.</p>
+    <div style="margin-top: 30px;">
+      <label style="display:block; margin:15px 0;"><input type="checkbox" id="robo"> 🤖 Robótica Agrícola</label>
+      <label style="display:block; margin:15px 0;"><input type="checkbox" id="drone"> 🚁 Drones</label>
+      <label style="display:block; margin:15px 0;"><input type="checkbox" id="ia"> 🧠 Inteligência Artificial</label>
+      <label style="display:block; margin:15px 0;"><input type="checkbox" id="agua"> 💧 Irrigação Inteligente</label>
+      <label style="display:block; margin:15px 0;"><input type="checkbox" id="solar"> ☀️ Energia Solar</label>
+    </div>
+    <button onclick="simular()" style="padding:15px 30px; background:#22c55e; border:none; color:white; font-size:18px; border-radius:10px; cursor:pointer; margin-top:20px;">Gerar Resultado</button>
+    <div id="resultado" style="margin-top:30px; padding:25px; background:white; color:black; border-radius:15px;"></div>
+  </section>
+
+  <section style="background: #0c4a6e; padding: 90px 10%;">
+    <h2 style="color: #7dd3fc;">🌍 O Agro e a Sociedade</h2>
+    <p>A agricultura está presente no dia a dia de todas as pessoas e influencia a economia e a qualidade de vida.</p>
+    <p>O desenvolvimento do setor agrícola gera empregos e mais segurança alimentar para o país.</p>
+    <p>O equilíbrio entre produção e preservação é um dos maiores desafios e oportunidades do presente.</p>
+  </section>
+
+  <section style="background: #172554; padding: 90px 10%;">
+    <h2 style="color: #93c5fd;">📚 O Que Aprendemos?</h2>
+    <div class="card-grid">
+      <div class="card"><h3>🌱 Sustentabilidade</h3><p>Produzir alimentos preservando recursos naturais é essencial para as futuras gerações.</p></div>
+      <div class="card"><h3>🤖 Robótica</h3><p>Máquinas inteligentes ajudam a aumentar produtividade e reduzir desperdícios.</p></div>
+      <div class="card"><h3>🚁 Drones</h3><p>Permitem monitorar plantações rapidamente e identificar problemas antecipadamente.</p></div>
+      <div class="card"><h3>🧠 Inteligência Artificial</h3><p>Auxilia os agricultores na tomada de decisões mais rápidas e eficientes.</p></div>
+      <div class="card"><h3>💧 Água</h3><p>O uso consciente da água é fundamental para a agricultura sustentável.</p></div>
+      <div class="card"><h3>☀️ Energia Limpa</h3><p>Fontes renováveis reduzem poluição e custos de produção.</p></div>
+    </div>
+  </section>
+
+  <section id="creditos" style="background: #111827; padding: 90px 10%; text-align: center;">
+    <h2 style="color: #facc15;">🏆 Créditos</h2>
+    <p style="margin-top: 20px;">Projeto Agrinho 2026</p>
+    <p>Tema: Agro Forte, Futuro Sustentável: Equilíbrio entre Produção e Meio Ambiente</p>
+    <p>Colégio Cívico Militar João Turin</p>
+    <p>Desenvolvido por Douglas Fronja</p>
+    <p style="margin-top: 20px;">Tecnologia, Sustentabilidade e Inovação para um Futuro Melhor.</p>
+  </section>
+
+  <footer>
+    <h3>AGrinHo 2026</h3>
+    <p>Site criado com HTML, CSS e JavaScript para mostrar o futuro do agro sustentável.</p>
+  </footer>
+
+  <script>
+    function simular() {
+      let pontos = 0;
+      if (document.getElementById('robo').checked) pontos += 20;
+      if (document.getElementById('drone').checked) pontos += 20;
+      if (document.getElementById('ia').checked) pontos += 20;
+      if (document.getElementById('agua').checked) pontos += 20;
+      if (document.getElementById('solar').checked) pontos += 20;
+      let resultado = '';
+      if (pontos === 0) {
+        resultado = `<h2>⚠️ Fazenda Tradicional</h2><p>Sua fazenda ainda utiliza poucos recursos tecnológicos. Embora seja possível produzir alimentos, o desperdício de recursos tende a ser maior e a eficiência menor.</p>`;
+      } else if (pontos <= 40) {
+        resultado = `<h2>🌱 Fazenda em Desenvolvimento</h2><p>Sua propriedade já começou a adotar algumas tecnologias importantes. Isso contribui para melhorar a produtividade e reduzir impactos ambientais.</p><p>Estimativa de economia de recursos: aproximadamente 35%.</p>`;
+      } else if (pontos <= 80) {
+        resultado = `<h2>🚜 Fazenda Inteligente</h2><p>Sua fazenda utiliza diversas tecnologias modernas. A combinação de inovação e sustentabilidade aumenta significativamente a eficiência da produção.</p><p>Estimativa de economia de recursos: aproximadamente 65%.</p>`;
+      } else {
+        resultado = `<h2>🏆 Fazenda Sustentável do Futuro</h2><p>Parabéns! Sua propriedade utiliza robótica, drones, inteligência artificial, irrigação inteligente e energia solar.</p><p>Esse modelo representa um exemplo de agricultura moderna e sustentável, capaz de produzir mais alimentos preservando os recursos naturais.</p><p>Redução estimada de desperdícios: até 80%.</p><p>Aumento estimado da produtividade: até 60%.</p>`;
+      }
+      document.getElementById('resultado').innerHTML = resultado;
+    }
+  </script>
+</body>
+</html>
